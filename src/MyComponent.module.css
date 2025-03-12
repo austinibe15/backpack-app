@@ -1,0 +1,21 @@
+.my-component {  
+  padding: 20px;  
+  border: 1px solid #ccc;  
+  border-radius: 5px;  
+  background-color: #f9f9f9; /* Optional: Light background color */  
+  display: flex; /* Flexbox for layout */  
+  flex-direction: column; /* Stack children vertically */  
+  align-items: center; /* Center align children */  
+}  
+
+.my-component__datepicker {  
+  margin-bottom: 20px;  
+}  
+
+.my-component__button {  
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */  
+}  
+
+.my-component__button:hover {  
+  background-color: #0056b3; /* Change to a darker shade on hover (customize as needed) */  
+}  
